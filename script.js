@@ -69,7 +69,7 @@ btnRoll.addEventListener('click', function () {
 btnHold.addEventListener('click', function () {
   scores[activePlayer] += currentScore;
 
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     document
       .querySelector(`.player--${activePlayer}`)
       .classList.add('player--winner');
